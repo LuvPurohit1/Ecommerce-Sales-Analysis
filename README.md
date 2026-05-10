@@ -53,10 +53,16 @@ Analyze e-commerce sales data to uncover:
 ```
 ecommerce-sales-analysis/
 │
-├── Cleaned_SampleSuperstore.csv    # Cleaned dataset
-├── sales_analysis.ipynb            # Jupyter notebook (EDA + Analysis)
-├── E-Commerce Sales Analysis.png   # Power BI dashboard screenshot
-├── requirements.txt                # Python dependencies
+├── Dashboard/
+│   ├── E-Commerce Sales Analysis 1.png
+│   ├── E-Commerce Sales Analysis 2.png
+│   └── E-Commerce Sales Analysis 3.png
+├── Data/
+│   ├── Cleaned_SampleSuperstore.csv
+│   └── SampleSuperstore.csv
+├── Notebook/
+│   └── sales_analysis.ipynb
+├── requirements.txt
 └── README.md
 ```
 
@@ -86,7 +92,14 @@ ecommerce-sales-analysis/
 
 Interactive dashboard with category, regional, and profitability analysis.
 
-![E-Commerce Sales Dashboard](E-Commerce%20Sales%20Analysis.png)
+### Page 1 — Sales Overview
+![Dashboard Page 1](Dashboard/E-Commerce%20Sales%20Analysis%201.png)
+
+### Page 2 — Category & Profit Analysis
+![Dashboard Page 2](Dashboard/E-Commerce%20Sales%20Analysis%202.png)
+
+### Page 3 — Regional & Discount Analysis
+![Dashboard Page 3](Dashboard/E-Commerce%20Sales%20Analysis%203.png)
 
 ---
 
